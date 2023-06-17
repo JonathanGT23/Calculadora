@@ -1,0 +1,326 @@
+body{
+   background-color: #010326 ;
+    font-family: 'Baloo Tamma 2', cursive;
+    color: #6A44F2;
+   background-image: linear-gradient(to left, #7a4aff , #12054e, #090606);
+
+}
+
+h1,h2{
+    text-align: center;
+    padding: 20px ;
+    font-weight: bold;
+}
+
+.container{
+
+    background-color: #2D1F8C;
+    width: 300px;
+    height: 423px;
+    margin: 0 auto;
+    border: 3px solid #33FDD8;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    
+    user-select: none;
+    box-shadow: 0px 4px 25px rgba(106, 68, 242, 0.5);
+}
+
+.panel{
+
+    background-color: #0D0540;
+    width: 88%;
+    height: 85px;
+    margin: 15px;
+   border: 3px solid #33FDD8;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+input{
+
+    background-color: #0D0540;
+    text-align: right;
+    color: #33FDD8;
+    font-size: 20px;
+    border: none;
+    
+    
+}
+
+input::placeholder{
+    color: #33FDD8;
+}
+
+
+
+
+.botones{
+
+    width: 90%;
+    height: 68%;
+    margin: -10px 15px;
+    
+   
+}
+
+
+
+
+
+button{
+    background-color: #6A44F2;
+    width: 65px;
+    height: 50px;
+    border: 3px solid #4C428C;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+button:hover{
+    background-color: #4C428C;
+    border-color:#6A44F2 ;
+}
+
+button:active{
+
+    background-color: #4C428C;
+  
+    transform: translateY(4px);
+
+    border-color:#6A44F2 ;
+
+}
+
+
+#resultado{
+    width: 65px;
+    height: 110px;
+}
+
+.uno{
+        
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+}
+
+
+
+#borrar_todo,#porcentaje,#division,#multiplicacion,#resta,#suma,#resultado{
+    background-color: #4C428C;
+    color: #33FDD8;
+    border: 3px solid #6A44F2;
+
+}
+
+#borrar_todo:hover{
+    background-color: #6A44F2;
+    border-color:#4C428C ;
+}
+
+#porcentaje:hover{
+    background-color: #6A44F2;
+    border-color:#4C428C ;
+}
+
+#division:hover{
+    background-color: #6A44F2;
+    border-color:#4C428C ;
+}
+
+#multiplicacion:hover{
+    background-color: #6A44F2;
+    border-color:#4C428C ;
+}
+
+#resta:hover{
+    background-color: #6A44F2;
+    border-color:#4C428C ;
+}
+#suma:hover{
+    background-color: #6A44F2;
+    border-color:#4C428C ;
+}
+#resultado:hover{
+    background-color: #6A44F2;
+    border-color:#4C428C ;
+}
+
+
+.dos{
+    
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+}
+
+.tres{
+    
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+}
+
+.cuatro{
+    
+        width: 200px;
+        height: auto;
+        
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+}
+
+.cinco{
+    
+        width: 200px;
+        height: auto;
+        
+        
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+        
+}
+
+.seis{
+    
+        width: 25px;
+        height: auto;
+       position: absolute;
+        margin-left: 205px;
+        margin-top: 190px;
+        
+}
+
+.redes  {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-right: 50px;
+    
+    
+
+}
+
+
+.datos p{
+    position: absolute;
+    
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 20px;
+    font-weight: bold;
+   
+
+}
+
+.redes a  {
+    text-decoration: none;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #6A44F2;
+    color: #ffffff;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+    margin-left: 25px;
+    
+    
+    
+  }
+
+  .redes a:hover {
+    transform: scale(1.1);
+  }
+
+
+
+
+  @media screen and (max-width: 1280px){
+    
+    body{
+       
+        font-family: 'Baloo Tamma 2', normal;
+    }
+
+    input{
+        width: 95%;
+        
+    }
+
+    .datos p{
+        position: relative;
+        text-align: center;
+        font-family: 'Baloo Tamma 2', normal;
+    }
+
+ 
+ 
+ }
+ 
+ @media screen and (max-width: 800px){
+ 
+    body{
+        font-family: 'Baloo Tamma 2', normal;
+    }
+ 
+    input{
+        width: 95%;
+        
+    }
+
+    .datos p{
+        position: relative;
+        text-align: center;
+        font-family: 'Baloo Tamma 2', normal;
+    }
+ }
+ 
+ @media screen and (max-width: 480px){
+ 
+    body{
+      
+        font-family: 'Baloo Tamma 2', normal;
+        
+    }
+   
+
+    input{
+        width: 95%;
+        
+    }
+
+    .datos p{
+        position: relative;
+        text-align: center;
+        font-family: 'Baloo Tamma 2', normal;
+    }
+
+
+
+ }

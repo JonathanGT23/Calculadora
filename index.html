@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"> </script>
+    <title>Calculadora</title>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <header>
+        <h1>Programa de Calculadora Básica</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="panel">
+            <input type="text" id="pantalla" class="pantalla" placeholder="0" disabled >
+            <input type="text" id="total" class="total"  disabled>
+        </div>
+
+
+        <div class="botones">
+            <div class="seis">
+                <button id="resultado" value="=" class="botones_numero" onclick="calcular()">=</button>
+            </div>
+
+            <div class="uno">
+                <button id="borrar_todo" class="botones_numero" onclick="borrar()">C</button>
+                <button id="porcentaje" value="%" class="botones_numero" onclick="borrartotal()" >CE</button>
+                <button id="division" value="/" class="botones_numero" onclick="addPantalla('/')" >÷</button>
+                <button id="multiplicacion" value="*" class="botones_numero" onclick="addPantalla('*')">×</button>
+            </div>
+
+            <div class="dos">
+                <button id="num7" value="7" class="botones_numero" onclick="addPantalla('7')">7</button>
+                <button id="num8" value="8" class="botones_numero" onclick="addPantalla('8')">8</button>
+                <button id="num9" value="9" class="botones_numero" onclick="addPantalla('9')">9</button>
+                <button id="resta" value="-" class="botones_numero" onclick="addPantalla('-')">-</button>
+            </div>
+
+            <div class="tres">
+                <button id="num4" value="4" class="botones_numero" onclick="addPantalla('4')">4</button>
+                <button id="num5" value="5" class="botones_numero" onclick="addPantalla('5')">5</button>
+                <button id="num6" value="6" class="botones_numero" onclick="addPantalla('6')">6</button>
+                <button id="suma" value="+" class="botones_numero" onclick="addPantalla('+')">+</button>
+            </div>
+
+
+            <div class="cuatro">
+                <button id="num1" value="1" class="botones_numero" onclick="addPantalla('1')">1</button>
+                <button id="num2" value="2" class="botones_numero" onclick="addPantalla('2')">2</button>
+                <button id="num3" value="3" class="botones_numero" onclick="addPantalla('3')">3</button>
+                
+            </div>
+            
+            <div class="cinco">
+                <button id="num0" value="0" class="botones_numero" onclick="addPantalla('0')">0</button>
+                <button id="punto" value="." class="botones_numero" onclick="addPantalla('.')">.</button>
+                <button id="borrar" class="botones_numero" onclick="borraruno()">⌫</button>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <footer>
+       
+     
+      
+     
+       <div class="datos">
+            <p class="datos">Creado por Jonathan González T. </p>
+        </div>
+       <div class="redes">
+        
+        
+        
+        
+        <a href="https://www.facebook.com/profile.php?id=100088565150787" class="fa fa-facebook" target="_blank"></a>
+       
+        <a href="https://www.instagram.com/jonathan_gonzalezt/" target="_blank"class="fa fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/jonathan-gonz%C3%A1lez-tenorio-a2a633235/" class="fa fa-linkedin" target="_blank"></a>
+       
+        <a href="https://github.com/JonathanGT23" class="fa fa-github" target="_blank"></a>
+       </div>
+       
+
+
+    </footer>
+   
+  
+       
+
+
+    
+
+</body>
+</html>
